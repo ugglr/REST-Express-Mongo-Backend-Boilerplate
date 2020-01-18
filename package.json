@@ -1,0 +1,29 @@
+{
+  "name": "REST-Express-Mongo-Backend-Boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ugglr/REST-Express-Mongo-Backend-Boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ugglr/REST-Express-Mongo-Backend-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/ugglr/REST-Express-Mongo-Backend-Boilerplate#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.9"
+  }
+}
