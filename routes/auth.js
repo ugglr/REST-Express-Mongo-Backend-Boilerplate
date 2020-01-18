@@ -13,7 +13,6 @@ router.get("/getUserByEmail", async (req, res) => {
 
 // REGISTER
 router.post("/register", async (req, res) => {
-  console.log("req", req.body);
   // Check if user exists in db
   const emailExist = await User.findOne({ email: req.body.email });
   if (emailExist) return res.status(400).send("Email already exists");
