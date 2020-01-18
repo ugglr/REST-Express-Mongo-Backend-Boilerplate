@@ -26,3 +26,44 @@ Start Server (runs: nodemon index.js)
 ```
 yarn run start
 ```
+
+If you are using Postman switch to raw + json
+
+## Endpoints
+
+USER:
+
+- getting a user by email
+  http://localhost:3000/api/user/getUserByEmail
+
+GET: Request body (JSON)
+
+```
+{
+    "email": "mail@mail.com"
+}
+```
+
+- Register
+  http://localhost:3000/api/user/register
+
+POST: Request body (JSON)
+
+```
+{
+    "email": "mail@mail.com",
+    "password": "SecretPassword"
+}
+```
+
+- Login
+  http://localhost:3000/api/user/login
+
+POST: Request body (JSON)
+
+```
+{
+    "email": "mail@mail.com",
+    "password": "SecretPassword"
+}
+```
